@@ -3,7 +3,7 @@
 A learning project that implements authentication using graphql and jwt following [this](https://hasura.io/blog/best-practices-of-using-jwt-with-graphql/)
 article.
 
-## Details about implementation
+## Details about the implementation
 
 Handling JWTs on the client-side has always been difficult. Storing it in localstorage or cookies will make your app vulnerable to CSRF & XSS attacks.
 In order to prevent these attacks, we can store our access-token in memory. But now access-token will be deleted as soon as we refresh the website. So to solve this problem,
